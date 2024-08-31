@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<head>
+    <title>Register</title>
+</head>
+<body>
+    <center>
+    <h1>WomenInspire Startup🚀👩‍💻✨</h1>
+    <h5>Innovation | Entrepreneurship | Traning | Tech-News</h5>
+    <p>Empowering young female developers with top-tier corporate training for success in tech👩‍💻</p>
+    </center>
+    <hr>
+    <center>
+        <h2>Registration Form</h2>
+        <form id="registrationForm">
+            <table>
+                <tr>
+                    <td>Name</td>
+                    <td><input type="text" id="name" placeholder="Enter your name" required></td>
+                </tr>
+                <tr>
+                    <td>Age</td>
+                    <td><input type="number" id="age" placeholder="Enter your age" required></td>
+                </tr>
+                <tr>
+                    <td>Gender</td>
+                    <td>
+                        <input type="radio" id="male" name="gender" value="Male">Male 
+                        <input type="radio" id="female" name="gender" value="Female">Female
+                    </td>
+                </tr>
+                <tr>
+                    <td>Email</td>
+                    <td><input type="email" id="email" placeholder="Enter your Email" required></td>
+                </tr>
+                <tr>
+                    <td>Select a course</td>
+                    <td>
+                        <select id="course">
+                            <option>Entrepreneurial Leadership Essentials</option>
+                            <option>Design Thinking for Entrepreneurs</option>
+                            <option>Scaling Leadership: Building High-Performing Teams</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Upload Resume</td>
+                    <td><input type="file" id="resume"></td>
+                </tr>
+                <tr>
+                    <td><input type="reset"></td>
+                    <td><input type="submit" value="Register"></td>
+                </tr>
+            </table>
+        </form>
+        <hr>
+        <a href="index.html">Home</a>
+        <a href="https://www.linkedin.com/in/boomika-mohan-56350522a/">LinkedIn</a> 
+    </center>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
